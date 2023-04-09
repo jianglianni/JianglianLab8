@@ -68,6 +68,16 @@
             app:layout_constraintEnd_toStartOf="@+id/receiveButton"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/sendButton" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/myToolBar"
+            android:layout_width="408dp"
+            android:layout_height="50dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="424dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     </FrameLayout>
 
